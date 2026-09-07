@@ -19,6 +19,8 @@ extern struct input {
   */
 } input;
 
+void input_init(void);
 void input_update(void);
+void input_close(void);
 
 #endif //!__INPUT__H__

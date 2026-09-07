@@ -15,4 +15,8 @@ extern struct game_state {
 	enum game_state_state state;
 } game_state;
 
+void game_init(void);
+void game_update(void);
+void game_close(void);
+
 #endif //!__GAME__H__
