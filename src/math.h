@@ -1,18 +1,10 @@
 #ifndef __MATH__H__
 #define __MATH__H__
 
-struct vec2 {
-	double x, y;
-};
-
-struct vec3 {
-	double x, y, z;
-};
-
 struct transform {
-	struct vec3 position;
-	struct vec3 rotation;
-	struct vec3 scale;
+	double position[3];
+	double rotation[3];
+	double scale[3];
 };
 
 #endif //!__MATH__H__

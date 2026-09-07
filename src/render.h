@@ -1,0 +1,10 @@
+#ifndef __RENDER__H__
+#define __RENDER__H__
+
+struct render_object;
+
+void render_init(void);
+
+void render_queue(struct render_object *object);
+
+#endif //!__RENDER__H__
